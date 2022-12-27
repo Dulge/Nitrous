@@ -1,4 +1,4 @@
-﻿Build started 12/27/2022 11:13:22 AM.
+﻿Build started 12/27/2022 2:58:45 PM.
 Logging verbosity is set to: Normal.     1>Project "Z:\CPP\Hacks\Nitrous\Nitrous\Nitrous.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
          Creating "bin\intermediates\Win32\Debug\Nitrous.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -7,7 +7,9 @@ Logging verbosity is set to: Normal.     1>Project "Z:\CPP\Hacks\Nitrous\Nitrous
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W4 /WX /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yu"pch.h" /Fp"bin\intermediates\Win32\Debug\Nitrous.pch" /Fo"bin\intermediates\Win32\Debug\\" /Fd"bin\intermediates\Win32\Debug\vc143.pdb" /external:W4 /Gd /TP /analyze- /FC /errorReport:prompt src\main.cpp
          main.cpp
        Link:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Win32\Debug\Nitrous.exe" /INCREMENTAL /ILK:"bin\intermediates\Win32\Debug\Nitrous.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\Win32\Debug\Nitrous.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Win32\Debug\Nitrous.lib" /MACHINE:X86 bin\intermediates\Win32\Debug\pch.obj
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Win32\Debug\Nitrous.exe" /INCREMENTAL /ILK:"bin\intermediates\Win32\Debug\Nitrous.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\Win32\Debug\Nitrous.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Win32\Debug\Nitrous.lib" /MACHINE:X86 bin\intermediates\Win32\Debug\mem.obj
+         bin\intermediates\Win32\Debug\proc.obj
+         bin\intermediates\Win32\Debug\pch.obj
          bin\intermediates\Win32\Debug\main.obj
          Nitrous.vcxproj -> Z:\CPP\Hacks\Nitrous\Nitrous\bin\Win32\Debug\Nitrous.exe
        FinalizeBuildStatus:
@@ -19,4 +21,4 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.55
+Time Elapsed 00:00:00.37
